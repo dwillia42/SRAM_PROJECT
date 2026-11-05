@@ -42,6 +42,8 @@ Simulations and vector waveforms are in the simulations folder
 Author:
 
 Dwann Williams
+
 Computer Engineering Student
+
 The City College of New York
 
