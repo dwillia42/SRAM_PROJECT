@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/WILLIAMS_DWANN_SR_LATCH.bdf
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/WILLIAMS_DWANN_SR_LATCH.vwf
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/WILLIAMS_DWANN_SR_GATED_LATCH.bdf
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/WILLIAMS_DWANN_SR_GATED_LATCH.vwf
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/WILLIAMS_DWANN_D_LATCH.bdf
+source_file = 1, C:/Users/dwann/Quartus/SRAM_PROJECT/db/WILLIAMS_DWANN_SRAM_16x32.cbx.xml
+design_name = WILLIAMS_DWANN_D_LATCH
+instance = comp, \Q_NOT~output , Q_NOT~output, WILLIAMS_DWANN_D_LATCH, 1
+instance = comp, \Q~output , Q~output, WILLIAMS_DWANN_D_LATCH, 1
+instance = comp, \D~input , D~input, WILLIAMS_DWANN_D_LATCH, 1
+instance = comp, \C~input , C~input, WILLIAMS_DWANN_D_LATCH, 1
+instance = comp, \inst1~1 , inst1~1, WILLIAMS_DWANN_D_LATCH, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, WILLIAMS_DWANN_D_LATCH, 1

@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dwann/Quartus/SRAM_PROJECT/simulation/qsim
+vWILLIAMS_DWANN_D_LATCH
+Z1 !s110 1791661216
+!i10b 1
+!s100 JSa?l?lC?ibI6J2FgeCnO1
+I?J]:FYU[EO1BPYXOd;k_G3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1791661215
+Z4 8WILLIAMS_DWANN_SRAM_16x32.vo
+Z5 FWILLIAMS_DWANN_SRAM_16x32.vo
+Z6 L0 31
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1791661216.000000
+Z9 !s107 WILLIAMS_DWANN_SRAM_16x32.vo|
+Z10 !s90 -work|work|WILLIAMS_DWANN_SRAM_16x32.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@d_@l@a@t@c@h
+vWILLIAMS_DWANN_D_LATCH_vlg_vec_tst
+R1
+!i10b 1
+!s100 P1Vzf0<mGSzDD1Gj_EjNo0
+IV@97Mi04FAFiLIfWN:An<0
+R2
+R0
+R3
+8WILLIAMS_DWANN_D_LATCH.vwf.vt
+FWILLIAMS_DWANN_D_LATCH.vwf.vt
+Z13 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 WILLIAMS_DWANN_D_LATCH.vwf.vt|
+!s90 -work|work|WILLIAMS_DWANN_D_LATCH.vwf.vt|
+!i113 1
+R11
+R12
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@d_@l@a@t@c@h_vlg_vec_tst
+vWILLIAMS_DWANN_SR_GATED_LATCH
+Z14 !s110 1791658078
+!i10b 1
+!s100 H[9LheXOiF:R5<onAlzO41
+I?zOW?1V8H02eMF>F[jXd32
+R2
+R0
+w1791658077
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1791658078.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@s@r_@g@a@t@e@d_@l@a@t@c@h
+vWILLIAMS_DWANN_SR_GATED_LATCH_vlg_vec_tst
+R14
+!i10b 1
+!s100 <NeL_BfMTi5hlSiJg[Pd63
+I;SfKzaZE:kE8R[>iCJ2e91
+R2
+R0
+w1791658076
+8WILLIAMS_DWANN_SR_GATED_LATCH.vwf.vt
+FWILLIAMS_DWANN_SR_GATED_LATCH.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 WILLIAMS_DWANN_SR_GATED_LATCH.vwf.vt|
+!s90 -work|work|WILLIAMS_DWANN_SR_GATED_LATCH.vwf.vt|
+!i113 1
+R11
+R12
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@s@r_@g@a@t@e@d_@l@a@t@c@h_vlg_vec_tst
+vWILLIAMS_DWANN_SR_LATCH
+Z16 !s110 1791655469
+!i10b 1
+!s100 51ijm]IzS_25Sc]<g^1cP3
+ITNMTnedKXBliY=U;G4H5j2
+R2
+R0
+w1791655467
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z17 !s108 1791655469.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@s@r_@l@a@t@c@h
+vWILLIAMS_DWANN_SR_LATCH_vlg_vec_tst
+R16
+!i10b 1
+!s100 4A@mQTIW]mZe<:@?T]3WC0
+IYQc@SE=am0nd_T5ACT<4M3
+R2
+R0
+w1791655466
+8WILLIAMS_DWANN_SR_LATCH.vwf.vt
+FWILLIAMS_DWANN_SR_LATCH.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R17
+!s107 WILLIAMS_DWANN_SR_LATCH.vwf.vt|
+!s90 -work|work|WILLIAMS_DWANN_SR_LATCH.vwf.vt|
+!i113 1
+R11
+R12
+n@w@i@l@l@i@a@m@s_@d@w@a@n@n_@s@r_@l@a@t@c@h_vlg_vec_tst

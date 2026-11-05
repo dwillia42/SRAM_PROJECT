@@ -1,0 +1,273 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- PROGRAM		"Quartus Prime"
+-- VERSION		"Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
+-- CREATED		"Sun Oct 11 18:10:00 2026"
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+LIBRARY work;
+
+ENTITY WILLIAMS_DWANN_SRAM_16x1 IS 
+	PORT
+	(
+		Data :  IN  STD_LOGIC;
+		WE :  IN  STD_LOGIC;
+		CS :  IN  STD_LOGIC;
+		OE :  IN  STD_LOGIC;
+		A1 :  IN  STD_LOGIC;
+		A0 :  IN  STD_LOGIC;
+		A2 :  IN  STD_LOGIC;
+		A3 :  IN  STD_LOGIC;
+		output :  OUT  STD_LOGIC
+	);
+END WILLIAMS_DWANN_SRAM_16x1;
+
+ARCHITECTURE bdf_type OF WILLIAMS_DWANN_SRAM_16x1 IS 
+
+COMPONENT williams_dwann_sram_cell
+	PORT(Data_In : IN STD_LOGIC;
+		 SEL : IN STD_LOGIC;
+		 WE : IN STD_LOGIC;
+		 Data_Out : OUT STD_LOGIC
+	);
+END COMPONENT;
+
+COMPONENT williams_dwann_2x4decoder
+	PORT(address : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+		 output : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+	);
+END COMPONENT;
+
+SIGNAL	address :  STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL	column :  STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL	row :  STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_49 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_16 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_17 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_50 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_19 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_21 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_23 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_25 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_27 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_29 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_31 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_33 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_35 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_37 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_39 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_41 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_43 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_45 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_47 :  STD_LOGIC;
+
+
+BEGIN 
+
+
+
+PROCESS(SYNTHESIZED_WIRE_49,SYNTHESIZED_WIRE_16)
+BEGIN
+if (SYNTHESIZED_WIRE_16 = '1') THEN
+	output <= SYNTHESIZED_WIRE_49;
+ELSE
+	output <= 'Z';
+END IF;
+END PROCESS;
+
+
+b2v_inst16 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_17,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst17 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_19,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst18 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_21,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst19 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_23,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst20 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_25,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst21 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_27,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst22 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_29,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst23 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_31,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst24 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_33,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst25 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_35,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst26 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_37,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst27 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_39,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst28 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_41,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+b2v_inst32 : williams_dwann_2x4decoder
+PORT MAP(address => address(1 DOWNTO 0),
+		 output => column);
+
+
+b2v_inst33 : williams_dwann_2x4decoder
+PORT MAP(address => address(3 DOWNTO 2),
+		 output => row);
+
+
+SYNTHESIZED_WIRE_17 <= row(0) AND column(0);
+
+
+SYNTHESIZED_WIRE_19 <= row(1) AND column(0);
+
+
+SYNTHESIZED_WIRE_21 <= row(2) AND column(0);
+
+
+SYNTHESIZED_WIRE_23 <= row(3) AND column(0);
+
+
+b2v_inst39 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_43,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+SYNTHESIZED_WIRE_43 <= row(0) AND column(1);
+
+
+SYNTHESIZED_WIRE_25 <= row(1) AND column(1);
+
+
+SYNTHESIZED_WIRE_27 <= row(2) AND column(1);
+
+
+SYNTHESIZED_WIRE_29 <= row(3) AND column(1);
+
+
+SYNTHESIZED_WIRE_45 <= row(0) AND column(2);
+
+
+b2v_inst45 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_45,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+SYNTHESIZED_WIRE_31 <= row(1) AND column(2);
+
+
+SYNTHESIZED_WIRE_33 <= row(2) AND column(2);
+
+
+SYNTHESIZED_WIRE_35 <= row(3) AND column(2);
+
+
+b2v_inst49 : williams_dwann_sram_cell
+PORT MAP(Data_In => Data,
+		 SEL => SYNTHESIZED_WIRE_47,
+		 WE => SYNTHESIZED_WIRE_50,
+		 Data_Out => SYNTHESIZED_WIRE_49);
+
+
+SYNTHESIZED_WIRE_47 <= row(0) AND column(3);
+
+
+SYNTHESIZED_WIRE_37 <= row(1) AND column(3);
+
+
+SYNTHESIZED_WIRE_39 <= row(2) AND column(3);
+
+
+SYNTHESIZED_WIRE_41 <= row(3) AND column(3);
+
+
+SYNTHESIZED_WIRE_50 <= WE AND CS;
+
+
+SYNTHESIZED_WIRE_16 <= OE AND CS;
+
+
+address(2) <= A2;
+address(3) <= A3;
+address(1) <= A1;
+address(0) <= A0;
+END bdf_type;

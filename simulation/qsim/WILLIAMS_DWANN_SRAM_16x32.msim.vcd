@@ -1,0 +1,92 @@
+$comment
+	File created using the following command:
+		vcd file WILLIAMS_DWANN_SRAM_16x32.msim.vcd -direction
+$end
+$date
+	Sat Oct 10 15:40:16 2026
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module WILLIAMS_DWANN_D_LATCH_vlg_vec_tst $end
+$var reg 1 ! C $end
+$var reg 1 " D $end
+$var wire 1 # Q $end
+$var wire 1 $ Q_NOT $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 , D~input_o $end
+$var wire 1 - C~input_o $end
+$var wire 1 . inst1~1_combout $end
+$var wire 1 / inst~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+0$
+0%
+1&
+x'
+1(
+1)
+1*
+0+
+1,
+0-
+1.
+1/
+$end
+#40000
+0"
+0,
+0.
+1$
+0/
+0#
+#80000
+1"
+1,
+1.
+1/
+1#
+0$
+#120000
+1!
+0"
+1-
+0,
+#160000
+0!
+0-
+0.
+1$
+0/
+0#
+#200000
+1"
+1!
+1,
+1-
+#240000
+0!
+0-
+1.
+1/
+1#
+0$
+#280000
